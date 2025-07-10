@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="side-bar">
+        <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="green leaves background" class="side-bar-bg-image">
+        <div class="brand-wrapper">
+            <img src="images/odin-lined.png" alt="the odin project logo" class="brand-logo">
+            <p class="brand-text">ODIN</p>
+        </div>
+        <div class="image-credit">
+            <p>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+        </div>
+    </div>
+    <form action="#" method="post">
+        <div class="form-description">
+            <div>
+                <h2>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                </h2>
+                <h2>
+                    Signup <em>now</em> to get started
+                </h2>
+            </div>
+            <div>
+                <h2>
+                    You <em>know</em> you want to.
+                </h2>
+            </div>
+        </div>
+        <table>
+            <tbody>
+                <tr><td><p class="title-text">Let's Do This!</p></td></tr>
+                <tr>
+                    <td>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="user_name_first" id="first-name" placeholder="John">
+                    </td>
+                    <td>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="user_name_last" id="last-name" pattern="[a-z]" placeholder="Doe">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail-id">EMAIL</label>
+                        <input type="email" name="email" id="mail-id" required placeholder="xyz@email.com">
+                    </td>
+                    <td>
+                        <label for="phone-num">PHONE NUMBER</label>
+                        <input type="tel" name="contact" id="phone-num" pattern="[0-9]{10}" placeholder="0123456789">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" name="pass" id="pass" required minlength="8">
+                    </td>
+                    <td>
+                        <label for="con-pass">CONFIRM PASSWORD</label>
+                        <input type="password" name="con-pass" id="con-pass" required>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+</html>
