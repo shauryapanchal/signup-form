@@ -124,3 +124,24 @@ input:focus{
     outline: none;
     box-shadow: 2px 2px 2px 2px rgb(222, 222, 222);
 }
+.form-end{
+    /* background-color: blue; */
+    margin-left: 4rem;
+    margin-right: auto;
+    position: absolute;
+    bottom: 6rem;
+}
+button{
+    font-size: 16px;
+    padding: 15px 25px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.log-in{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
